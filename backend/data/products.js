@@ -1,0 +1,40 @@
+const products = [
+    {
+        _id: '1',
+        name: "Airpods",
+        image: "https://baseus.com.pk/wp-content/uploads/2023/05/Baseus-Bowie-D05-Wireless-Headphone-Bluetooth-5-3-Earphone-HIFI-Stereo-Headset-40mm-Driver-Foldable-Over1.jpg",
+        description: "Wireless bluetooth fast headphones",
+        brand: "Apple",
+        category: "electronics",
+        price: "90",
+        countInStock: "5",
+        rating: "4.5",
+        numReviews: "34",
+    },
+    {
+        _id: '2',
+        name: "Airpods",
+        image: "https://pakistanstore.pk/wp-content/uploads/2022/08/Beats-Solo3-Headphone.jpg",
+        description: "Wireless bluetooth fast headphones",
+        brand: "Apple",
+        category: "electronics",
+        price: "90",
+        countInStock: "5",
+        rating: "4",
+        numReviews: "4",
+    },
+    {
+        _id: '3',
+        name: "Airpods",
+        image: "https://new-edifier-us-oss.edifier.com/images/20230328/8fb4d7148326dbafe6c7949eeea20d43.png",
+        description: "Wireless bluetooth fast headphones",
+        brand: "Apple",
+        category: "electronics",
+        price: "90",
+        countInStock: "5",
+        rating: "3",
+        numReviews: "12",
+    },
+];
+
+export default products;

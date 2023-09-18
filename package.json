@@ -1,0 +1,15 @@
+{
+  "name": "full-stack-ecommerce-web",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Akhlaq Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
