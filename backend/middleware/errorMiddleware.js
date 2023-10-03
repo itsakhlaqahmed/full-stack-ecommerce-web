@@ -10,7 +10,7 @@ const errorHandler = (err, req, res, next) => {
 
     // check for Moongose bad ObjectId
 
-    if(err.name === 'CastError' && err.kind === 'ObjectID'){
+    if(err.name === 'CastError' && err.kind === 'ObjectId'){
         message = 'Resource not found';
         statusCode = 404;
     }
